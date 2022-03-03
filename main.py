@@ -12,6 +12,7 @@ from global_helpers import RIGHT_SCORE_LIMIT, LEFT_SCORE_LIMIT
 
 # Setting up the screen
 screen = Screen()
+screen.title("Pong")
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.tracer(0)
